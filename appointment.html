@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hosp</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav id="navbar">
+        <a href="#" id="logo"> <span>My</span>HealthCare.org </a>
+
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./appointment.html">Book Appointment</a></li>
+          <li><a href="./medicines.html">Medicines</a></li>
+          <li><a href="./doctors_info.html">Doctors List</a></li>
+          <li><a href="./Hospital_info.html">Hospitals List</a></li>
+          <li><a href="./contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="app">
+        <div class="form">
+            <h2>Patient Details</h2>
+            <div class="field">
+                <h3>PatientName</h3>
+                <input type="text" name="PatientName" ><br>
+            </div>
+            <div class="field">
+                <h3>Age</h3>
+                <input type="text" name="Age" ><br>
+            </div>
+            <div class="field">
+                <h3>Gender</h3>
+                <input type="text" name="Gender" ><br>
+            </div>
+            <div class="field">
+                <h3>PhoneNumber</h3>
+                <input type="text" name="PhoneNumber" ><br>
+            </div>
+            <div class="field">
+                <h3>Date of appointment</h3>
+                <input type="date" name="Appointment request">
+            </div>
+            <div class="field">
+                <h3>Departement</h3>
+                <select name="DEPARTMENT" id="DEPARTMENT">
+                    <option value="ji">Select</option>
+                    <option value="Allergists/Immunologists">Cardiology</option>
+                    <option value="Anesthesiologists">orthopedic</option>
+                    <option value="Cardiologists">Gynic</option>
+                    <option value="Colon and Rectal Surgeons">Neurology</option>
+                    <option value="Critical Care Medicine Specialists">opthomology</option>
+            </div>
+            <div class="field">
+                <input class="btn-one" type="button" value="Book Appointment" onclick="msg()">
+            </div>
+
+        </div>
+    </div>
+    <footer>© Copyright 2023, All Rights Reserved</footer>
+</body>
+</html>

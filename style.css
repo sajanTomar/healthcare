@@ -1,0 +1,206 @@
+/* html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden;
+} */
+
+/* body {
+    background-color: rgb(249, 9, 9); 
+} */
+
+.doctors {
+  text-align: center;
+  margin-top: 5px;  
+  height: 91vh;
+}
+
+.doctors select {
+  background-color: brown;
+  height: 40px;
+  width: 180px;
+  color: white;
+  border-radius: 5px;
+}
+.doctors select:hover {
+  background-color: blue;
+  color: black;
+}
+
+.table table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table table tr:nth-child(even){background-color: #f2f2f2;}
+.table table tr:hover {background-color: #ddd;}
+.table table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.table table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.refresh {
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+}
+.refresh:hover {
+  background-color: aqua;
+  color: black;
+}
+.select {
+  background-color: green;
+  color: white;
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+}
+.select:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+
+#phone {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#phone td, #phone th {
+    border: 1px solid #cfa7a7;
+    padding: 8px;
+  }
+
+
+#phone th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#phone tr:nth-child(even){background-color: #f2f2f2;}
+#phone tr:hover {background-color: #ddd;}
+
+
+
+.search {
+    margin-top: 5px;
+    text-align: center;
+  }
+#search {
+  height: 30px;
+  border-radius: 10px;
+  background-color: #b9a2a2;
+}
+#search:hover {
+  border: 1px solid white;
+}
+.medicines {
+  height: 91vh;
+  background-color: aliceblue;
+}
+.card {
+  height: 30vh;
+  width: 22vh;
+  padding: 2%;
+  color: white;
+  background-color: rgb(165, 162, 161);
+  box-shadow: 0 4px 8px 0 rgba(236, 231, 231, 0.2);
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: 20px;
+  margin-right: 55px;
+}
+.card h1 {
+  color: black;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(228, 6, 6, 0.936);
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.card button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgb(126, 77, 77);
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+.card button:hover {
+  background-color: rgb(107, 27, 235);
+  color: white;
+}
+.row1 {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row2 {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  margin-top: 100px;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+.form h2 {
+  font-size: 3rem;
+}
+.form {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  background-color: aqua;
+
+  width: 500px;
+  height: fit-content;
+
+  border-radius: 15px;
+}
+.form input {
+  margin: 10px;
+  height: 40px;
+  border-radius: 10px;
+}
+.field {
+  display: flex;
+}
+#doc {
+  background-color: red;
+  margin: 1px;
+}
+td {
+  margin: 1px !important;
+}

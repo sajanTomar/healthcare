@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hosp</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style1.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav id="navbar">
+        <a href="#" id="logo"> <span>My</span>HealthCare.org </a>
+
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./appointment.html">Book Appointment</a></li>
+          <li><a href="./medicines.html">Medicines</a></li>
+          <li><a href="./doctors_info.html">Doctors List</a></li>
+          <li><a href="./Hospital_info.html">Hospitals List</a></li>
+          <li><a href="./contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="doctors">
+        <select id="departement_list">
+            <option value="100">Select Department</option>
+            <option value="0">cardialogy</option>
+            <option value="1">orthopedic</option>
+            <option value="2">general_medicine</option>
+            <option value="3">nephrology</option>
+            <option value="4">opthomology</option>
+            <option value="5">pulmology</option>
+        </select>
+        <input type="button" onclick="Validate()" value="Search" class="select"/>
+        <button onclick="redisplay()" class="refresh">Refresh</button>
+        <!-- <div class="search">
+            Select the departement you are looking for
+        </div> -->
+        <div class="table">
+            <table id="doc"></table>
+        </div>
+        
+    </div>
+    
+    <script src="./doctors_info.js"></script>
+</body>
+</html>

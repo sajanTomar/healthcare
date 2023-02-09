@@ -1,0 +1,163 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* CSS Variables */
+:root {
+  --navbar-height: 59px;
+}
+/* Navigation Bar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+#logo {
+  margin: 10px 34px 10px 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(2, 47, 49);
+}
+#logo:hover{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+#navbar ul {
+  display: flex;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+/* After Navbar Home */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.homeOne {
+  height: 91vh;
+  width: 48vh;
+}
+
+.homeOne h1 {
+  margin-top: 200px;
+}
+
+.homeOne h1:hover {
+  color: orange;
+}
+
+.homeTwo {
+  margin-left: 100px;
+  margin-right: 0;
+  height: 91vh;
+  width: 151vh;
+}
+.homeTwo img {
+  height: 91vh;
+  width: 150vh;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+  height: 4vh;
+}
+
+.app {
+  overflow: auto;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.616)), url("./images/one.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 91vh;
+}
+
+.app-two {
+    overflow: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.616), rgba(255, 255, 255, 0.616)), url("./images/two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+  }
+
+.form {
+  background-color: orangered;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 52vh;
+  width: 45vh;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.field{
+    margin-bottom: 11px;
+}
+.form h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+
+.form h3{
+    text-align: left;
+}
+
+.form input{
+    width: 100%;
+}
+
+.form .field .btn-one{
+    margin-top: 11px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    height: 25px;
+}
+
+.form .field .btn-one:hover{
+    background-color: rgb(120, 120, 223);
+}
